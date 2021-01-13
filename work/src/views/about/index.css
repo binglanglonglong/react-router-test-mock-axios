@@ -1,0 +1,55 @@
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+.inp{
+    border: none;
+    width: 80%;
+    height: 35px;
+    background: url(../../icon-.png) no-repeat 15px #F4F5F7;
+    border-radius: 25px;
+    background-size: 25px;
+    text-indent: 4em;
+    outline: none;
+}
+.main{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    overflow: scroll;
+}
+.left{
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+}
+
+.left>a{
+    text-align: center;
+    display: block;
+    color: rgb(61, 61, 61);
+    line-height: 50px;
+    border-left: 4px solid white;
+  }
+  .left>.active{
+    color: orange;
+    border-color: orange;
+  }
+  .right{
+      height: 100%;
+      flex: 1;
+      box-sizing: border-box;
+      padding: 10px;
+      display: flex;
+      overflow: hidden;
+  }

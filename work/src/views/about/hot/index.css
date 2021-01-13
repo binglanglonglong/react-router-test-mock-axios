@@ -1,0 +1,46 @@
+.hot{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.swiper-container{
+    width: 100%;
+    box-sizing: border-box;
+}
+.swiper-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+}
+.swiper-slide{
+    width: 100%;
+    box-sizing: border-box;
+}
+.swiper-slide>img{
+    width: 100%;
+    height: 100px;
+}
+.imgText{
+    width: 100%;
+    flex: 1;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgText>div{
+    width: 30%;
+    margin-top: 10px;
+}
+.imgText>div>img{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 50%;
+}
+.imgText>div>span{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
